@@ -1,0 +1,161 @@
+   :root {
+      --bg-main: #1B2430;
+      --main-t-color: #f5f5f5;
+      --bg-secondary: #0A043C;
+      --s-t-color: forestgreen;
+      --t-t-color:#000;
+      --btn-bg: forestgreen;
+   }
+
+
+   .btn-add {
+      background:var(--btn-bg);
+      padding: 5px 45px;
+      text-align: center;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      font-size: 13px;
+      border-radius: 10px;
+      border: 0;
+   }
+
+   .btn-add:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+   }
+
+   .btn-add i {
+      margin-right: 10px;
+   }
+
+   .list-item-content {
+     height: calc(100vh - 150px);
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 0 20px;
+   }
+
+   .list-item-content::-webkit-scrollbar {
+      width: 4px;
+   }
+
+   .list-item-content::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, .2);
+      border-radius: 20px;
+   }
+
+   .list-item-category {
+      text-align: justify;
+      background-color:  rgba(0, 0, 0, .1);
+      border-radius: 10px;
+      padding: 20px 20px;
+   }
+
+   .list-item-category h6 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--s-t-color);
+   }
+
+   .list-item-category p {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: var(--main-t-color);
+   }
+
+   .list-item-category span {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--main-t-color);
+   }
+
+   .list-item-category .edit {
+      font-size: 18px;
+      margin: 0 20px 0 30px;
+      color: forestgreen;
+      cursor: pointer;
+   }
+
+   .list-item-category .delete {
+      font-size: 18px;
+      color: #FF0000;
+      cursor: pointer;
+   }
+
+   .item-container {
+      margin-bottom: 20px;
+   }
+
+   .modal-header {
+      background-color: var(--btn-bg);
+      color: white;
+   }
+
+   .modal-header h5 {
+      font-size: 17px;
+      font-weight: 400 !important;
+   }
+
+   .btn-add-modal {
+      background-color: var(--btn-bg);
+      color: white;
+      padding: 8px 50px;
+      font-size: 15px;
+      border-radius: 10px;
+      border: none;
+   }
+
+   .input-modal {
+      padding: 8px;
+      font-size: 15px !important;
+
+   }
+
+   .modal-body h2 {
+      font-size: 20px;
+
+   }
+
+   .modal-body i {
+      font-size: 50px;
+      margin: 10px 0 15px 0;
+      color: #FF0000;
+   }
+
+   .modal-body .delete-btn-y,
+   .modal-body .delete-btn-n {
+      border: 0;
+      padding: 8px 80px;
+      font-size: 15px;
+      color: #fff;
+      margin: 20px 5px;
+   }
+
+   .modal-body .delete-btn-y {
+      background-color: #FF0000;
+   }
+
+   .modal-body .delete-btn-n {
+      background-color: forestgreen;
+   }
+
+   .input-search:focus {
+      outline: none !important;
+   }
+
+   .input-search {
+      border: none;
+      padding: 4px 40px;
+      font-size: 13px;
+      color:var(--main-t-color);
+      background-color: var(--bg-main);
+      border-bottom:1px solid var(--btn-bg);
+   }
+
+   .search-icon {
+      position: absolute;
+      margin: 5px 15px;
+      color: var(--main-t-color)
+   }

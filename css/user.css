@@ -1,0 +1,114 @@
+:root {
+    --bg-main: #1B2430;
+    --main-t-color: #f5f5f5;
+    --bg-secondary: #0A043C;
+    --s-t-color: forestgreen;
+    --t-t-color:#000;
+    --btn-bg: forestgreen;
+    --s-bg-color:rgba(0, 0, 0, .1);
+    --f-t-color:rgba(255,255,255,.5)
+ }
+
+.search-thread-title-icon{
+    position: absolute;
+    color:var(--s-t-color);
+    margin: 18px 5px;
+    font-size: 14px;
+ }
+ .search-user{
+    width: 104%;
+    margin: 10px 10px 10px -11px;
+    font-weight: 500;
+    padding:4px 40px;
+    background-color: var(--bg-main);
+    border: 1px solid var(--s-bg-color);
+    font-size: 14px;
+    color:var(--main-t-color)
+ }
+ .search-user::placeholder{
+    color: rgba(255, 255, 255, .8);
+ }
+ .user-container{
+    background-color: var(--s-bg-color);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ }
+.author-dp{
+    margin-top: -30px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.author-dp img{
+    width: 100%;
+}
+.right-content-info{
+    float: right;
+    width: calc(100% - 80px);
+
+}
+.right-content-info h6{
+    color: var(--s-t-color);
+    font-weight: 600;
+    margin-bottom: 0 ;
+    font-size: 14px;
+}
+.right-content-info p{
+    color: var(--main-t-color);
+    margin: 0;
+    font-size: 11px;
+}
+.dropdown{
+    margin: 10px 0  0 5px;
+
+}
+.dropdown .operation{
+    color: var(--main-t-color);
+}
+.dropdown-item{
+    font-size: 13px;
+    font-weight: 500;
+}
+.modal-header{
+    background-color: var(--btn-bg);
+    color:var(--main-t-color)
+ }
+ 
+.modal-title{
+    font-size: 18px !important;
+    font-weight: 500;
+
+}
+.modal-body label{
+    font-size: 15px;
+    font-weight: 500;
+}
+.modal-body input,.modal-body select{
+    font-size: 14px;
+    margin: -5px 0;
+}
+.btn-ban {
+    background-color: var(--btn-bg);
+    color: white;
+    padding: 6px 30px;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+ }
+ .banned-user{
+    background-color: rgba(255, 0, 0, .5) !important;
+ }
+ .user-list{
+    overflow-y:  auto;
+    height: calc(100vh - 155px);
+ }
+ .user-list::-webkit-scrollbar{
+    width: 4px;
+    border-radius: 50%;
+}
+.user-list::-webkit-scrollbar-thumb{
+    background-color: var(--s-bg-color);
+}
